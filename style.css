@@ -2,10 +2,24 @@ div {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	font-family: "Comic Sans MS", sans-serif;
 }
 
 button {
 	padding: 50px;
+	margin-top: 25px;
+	border-radius: 20px;
+	background-color: #FEC700;
+	font-size: 30px;
+	font-family: "Comic Sans MS", sans-serif;
+}
+
+button:hover {
+	background-color: #FFF04F;
+}
+
+img {
+	max-width: 50%;
 }
 
 .hidden {
