@@ -1,0 +1,13 @@
+div {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+button {
+	padding: 50px;
+}
+
+.hidden {
+	display: none;
+}
