@@ -1,27 +1,33 @@
-div {
+div{
+	height: 100vh;
 	display: flex;
 	flex-direction: column;
+	justify-content: center;
 	align-items: center;
-	font-family: "Comic Sans MS", sans-serif;
 }
 
 button {
-	padding: 50px;
+	width: 150px;
+	height: 150px;
 	margin-top: 25px;
 	border-radius: 20px;
 	background-color: #FEC700;
 	font-size: 30px;
 	font-family: "Comic Sans MS", sans-serif;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 button:hover {
 	background-color: #FFF04F;
 }
 
-img {
-	max-width: 50%;
-}
-
 .hidden {
 	display: none;
+}
+
+#bigDoge {
+	width: 400px;
+	height: 400px;
 }
